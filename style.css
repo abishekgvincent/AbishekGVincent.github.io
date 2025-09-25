@@ -43,25 +43,6 @@ body::before {
     );
 }
 
-/* Hide the default cursor */
-body, a, button {
-  cursor: none;
-}
-
-.custom-cursor {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 15px;
-    height: 15px;
-    border: 1px solid white;
-    background-color: transparent;
-    border-radius: 50%;
-    pointer-events: none; /* Allows you to click through it */
-    transform: translate(-50%, -50%); /* Centers the cursor */
-    transition: width 0.2s, height 0.2s;
-    z-index: 9999;
-}
 
 h1, h2, h3, h4 {
     margin: 0;
